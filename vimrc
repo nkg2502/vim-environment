@@ -119,6 +119,7 @@ au FileType c,cpp map <F12> :!gdb -q %< <CR>
 " 한글 보정(작동 안하는 듯)
 ca ㅈ w
 ca ㅈㅂ wq
+ca ㅂ q
 
 " SwapExists 조금더 고민해보자
 "au SwapExists * let v:swapchoice = 'o'
