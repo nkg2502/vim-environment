@@ -27,7 +27,7 @@ set statusline+=[
 set statusline+=%{&ff} "eol
 set statusline+=/ "delimiter
 set statusline+=%{''.(&fenc!=''?&fenc:&enc).''} "encoding
-set statusline+=%{(&bomb?\"BOM\":\"\")} "BOM
+set statusline+=%{(&bomb?\"(BOM)\":\"\")} "BOM
 set statusline+=]
 
 set statusline+=\ "separator
