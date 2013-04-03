@@ -101,8 +101,8 @@ map <F4> zo
 map <F5> :NERDTreeToggle <CR>
 
 "F9 : compile
-au FileType c map <F9> :!gcc -W -Wall % -o %< -g
-au FileType cpp map <F9> :!g++ -W -Wall % -o %< -g
+au FileType c map <F9> :!gcc -W -Wall % -o %< -g <CR>
+au FileType cpp map <F9> :!g++ -W -Wall % -o %< -g <CR>
 
 " F11 execute
 if has("gui_running")
