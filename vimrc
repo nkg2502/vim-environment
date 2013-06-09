@@ -69,6 +69,8 @@ vmap <S-Tab> <gv
 " backup
 set nobackup
 " 또는 backup되는 위치를 한 곳으로 모으고 싶다
+" set backupdir=~/backup
+" set dir=~/backup/swap
 set history=1024
 
 syntax enable
