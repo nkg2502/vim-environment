@@ -13,6 +13,9 @@ set number		" line number
 set nowrap
 set ruler		" show the cursor position all the time
 
+" colorcolumn
+set colorcolumn=80
+
 " status bar
 set ls=2		" last status 2 row
 
@@ -114,6 +117,7 @@ elseif has("unix")
 endif
 au FileType ruby map <F11> :!ruby % <CR>
 au FileType python map <F11> :!python % <CR>
+au FileType python setlocal ts=4 sts=4 sw=4
 
 " F12 debug
 au FileType c,cpp map <F12> :!gdb -q %< <CR>
